@@ -36,12 +36,12 @@ Do_Not_Contact, Not_Useful_Column).
 | Null count | 8 | 2 |
 | Duplicate count | 1 | 0 |
 
-The 2 remaining nulls are intentional — missing phone numbers that cannot be 
+The 2 remaining nulls are intentional missing phone numbers that cannot be 
 reliably imputed, tracked via the `Phone_Missing` flag column.
 
 ## Tech Stack
 Python, pandas, numpy, Jupyter Notebook (Google Colab)
 
 ## Files
-- `Cleaning_Data.ipynb` — full cleaning notebook with markdown commentary
-- `cleaned_customer_data.csv` — final cleaned output
+- `Cleaning_Data.ipynb`:full cleaning notebook with markdown commentary
+- `cleaned_customer_data.csv` : final cleaned output
